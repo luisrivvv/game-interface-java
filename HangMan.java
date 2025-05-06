@@ -24,6 +24,7 @@ public class HangMan {// This is a good skeleton for a superclass
     public int getScore(){
         return this.score;
     }
+    
     public void checkGameState(){
 
         if (checkGameWon()){
